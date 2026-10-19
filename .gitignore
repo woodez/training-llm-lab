@@ -218,3 +218,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local Claude Code instructions (keep out of GitHub)
+CLAUDE.md
+
+# LLM lab: private data and model artifacts
+data/raw/
+data/interim/
+data/processed/
+data/warmup/
+adapters/
+fused/
+Q&A.md
+eval/results/
+*.safetensors
+*.gguf
